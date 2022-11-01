@@ -1,0 +1,20 @@
+{
+  "name": "charon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-pwa": "1.2.0",
+    "vuepress-plugin-cursor-effects": "^1.1.6",
+    "vuepress-plugin-permalink-pinyin": "^1.0.0",
+    "vuepress": "^1.9.7"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy-gh.sh"
+  },
+  "dependencies": {
+    "vuepress-theme-reco": "^1.6.16"
+  }
+}

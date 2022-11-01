@@ -1,0 +1,97 @@
+$accentColor = #bf616a
+//让hero整体向上移动150px
+//.hero div
+//  transform translateY(-150px)
+
+.home-blog .hero h1
+  -webkit-transform matrix(1, 0, 0, 1, 0, 0)
+  text-shadow 1px 1px 0 #ff3f1a, -1px -1px 0 #00a7e0
+  font-size 5rem
+  font-weight 800
+  margin 2rem auto
+  color white
+
+@media screen and (max-width: 480px)
+  .home-blog .hero h1
+    font-size: 3rem;
+    margin: 7rem auto 1.8rem;
+
+@media (max-width: 419px)
+  .home-blog .hero h1
+    margin: 6rem auto 1.8rem;
+    font-size: 2rem;
+
+@media (max-width: 719px)
+  .home-blog .hero h1
+    margin: 6rem auto 1.8rem;
+    font-size: 2rem;
+
+
+.home-blog .hero p
+  margin 1.8rem auto
+  font-size 1.6rem
+  line-height 1.3
+  color white
+  font-weight 800
+  text-shadow 1px 1px 0 #ff3f1a, -1px -1px 0 #00a7e0
+  //text-shadow 0 2px 2px #47456d
+
+.navbar .site-name
+  font-weight 800
+  font-size 22px
+  background -webkit-linear-gradient(45deg, #70f7fe, #fbd7c6, #fdefac, #bfb5dd, #bed5f5)
+  color transparent
+  -webkit-background-clip text
+  -webkit-animation run 3s linear 0s infinite normal none running
+  //animation run 3s linear 0s infinite normal none running
+  @keyframes run {
+    0% {
+      background-position -100px 0
+    }
+    100% {
+      background-position 100px 0
+    }
+  }
+
+.mode-options, .home-blog-wrapper, .footer-wrapper.footer, .title, .page h2, .page h3,
+.loading-wrapper, .personal-info-wrapper, .valine-wrapper, .timeline-content, .category-name,
+.post-num, .tags span, .iconfont span, .page-edit {
+  font-family: "Chalkboard SE","PingFangSC-Regular","Comic Sans MS",STZhongsong,Ovo,Georgia,"Microsoft YaHei",serif !important;
+}
+
+
+//$textColor = black
+//$textShadow = 0
+///*
+//$boxShadowHover = 0 2px 16px 0 rgba(0, 0, 0, 0.2)
+//$textShadow = 0 2px 4px rgba(0, 0, 0, 0.2);
+//$borderRadius = .25rem
+//*/
+////.home-blog .hero h1, .home-blog .hero .description, .home-blog .hero .action
+////  color black !important
+//// 文章和标签中间的竖线
+//.home-blog .home-blog-wrapper .info-wrapper .num > div:first-child
+//  border-right 1px solid #eaecef
+//// 代码块中背景和文字颜色
+//.content__default
+//  code
+//    color #1475dc !important
+//    background-color rgba(27, 31, 35, 0.1) !important
+//  pre, pre[class*='language-']
+//    code
+//      color #fff !important
+//.info-wrapper .category-wrapper .category-item
+//  box-shadow none !important
+//.comments-wrapper .valine-wrapper #valine.v .vlist .vh .vcontent
+//  box-shadow none !important
+//.comments-wrapper .valine-wrapper #valine.v .vlist .vh .vmeta .vat
+//  box-shadow nonec
+//.navbar
+//  background whitesmoke !important
+//  //background #7F7FD5 !important
+//  //background -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5) !important
+//  //background linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5) !important
+//header .links
+//  background-color transparent !important
+//.abstract-item .title
+//  margin-bottom 15px !important

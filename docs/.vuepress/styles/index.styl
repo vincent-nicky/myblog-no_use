@@ -1,22 +1,35 @@
-// 侧边栏样式
+.theme-container
+  //font-family: "Chalkboard SE","PingFangSC-Regular","Comic Sans MS",STZhongsong,Ovo,Georgia,"Microsoft YaHei",serif !important;
+  //font-family  ZhuZiAYuanJWD
+  // 侧边栏样式
 // 左侧侧边栏标题
 .sidebar > .sidebar-links > li > a.sidebar-link {
   font-size: 1.5em !important;
   margin-left: -1em;
 }
-// 右侧文章标题导航栏
+// 文章标题导航栏
 a.sidebar-link {
-  font-size: 14px !important;
+  font-size: 14px
 }
 // 左侧边栏标题字体大小样式
 .sidebar-heading span{
   font-size: 1.2em;
   font-weight: bold;
 }
+
+.sub-sidebar-wrapper li.active{
+  border-left $accentColor 3px solid !important
+}
+ul.sub-sidebar-wrapper
+  overflow-y: scroll
+
+.sub-sidebar > li > a.sidebar-link {
+  font-size: 13px !important;
+  line-height 16px
+}
 //.sidebar-heading.open span{
 //  font-weight: bold;
 //}
-
 
 // 左侧边栏展开文章的字体大小
 //a.sidebar-link.active {

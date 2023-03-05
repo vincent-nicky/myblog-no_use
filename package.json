@@ -1,20 +1,29 @@
 {
   "name": "charon",
   "version": "1.0.0",
-  "main": "index.js",
+  "author": "reco_luan",
   "license": "MIT",
-  "devDependencies": {
-    "@vuepress/plugin-pwa": "1.2.0",
-    "vuepress-plugin-cursor-effects": "^1.1.6",
-    "vuepress-plugin-permalink-pinyin": "^1.0.0",
-    "vuepress": "^1.9.7"
-  },
   "scripts": {
-    "dev": "vuepress dev docs",
+    "dev": "vuepress dev docs --host \"localhost\"",
     "build": "vuepress build docs",
     "deploy": "bash deploy-gh.sh"
   },
-  "dependencies": {
+  "devDependencies": {
+    "vuepress": "1.9.7",
     "vuepress-theme-reco": "^1.6.16"
+  },
+  "description": "",
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "@vuepress-reco/vuepress-plugin-loading-page": "^1.6.13",
+    "@vuepress-reco/vuepress-plugin-screenfull": "^1.0.1",
+    "@vuepress/plugin-pwa": "1.2.0",
+    "vue": "^2.7.13",
+    "vuepress-cli": "^1.0.0-prealpha.8",
+    "vuepress-plugin-anchor-right": "^0.0.1-beta.7",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-cursor-effects": "^1.1.6",
+    "vuepress-plugin-permalink-pinyin": "^1.1.0",
+    "vuepress-plugin-reading-progress": "^1.0.10"
   }
 }

@@ -6,7 +6,7 @@ tags:
 - vuepress优化
 ---
 
-## 1. 解决部署后无法读取到样式的问题
+## 2022-10-29 解决部署后无法读取到样式的问题
 
 ```javascript
 module.exports = {
@@ -15,7 +15,7 @@ module.exports = {
 }
 ```
 
-## 2. 添加看板娘
+## 2022-10-29 添加看板娘
 
 - 方式一
 
@@ -51,7 +51,7 @@ plugins: [
 ]
 ```
 
-## 3. 将build后的html文件的lang设置为 “zh-CN”
+## 2022-10-29 将build后的html文件的lang设置为 “zh-CN”
 
 ```javascript
 module.exports = {
@@ -68,33 +68,21 @@ module.exports = {
 }
 ```
 
-## 4. 插件boxx
+## 2022-10-30 自定义容器
 
-<h3>安装</h3>
-
-- 在文件package.json中的devDependencies下加入"vuepress-plugin-boxx": "0.0.7"：
-```json
-"devDependencies": {
-    "vuepress-plugin-boxx": "0.0.7"
-}
 ```
-- 在 vuepress 的config.js中配置plugins：
-```js
-plugins: [
-    ["vuepress-plugin-boxx"]
-],
+:::tip
+（待续）
+:::
+
+:::warning
+（待续）
+:::
+
+:::danger 危险
+（待续）
+:::
 ```
-- 在package.json目录下执行命令：npm install
-
-<h3>使用</h3>
-
-<Boxx type="type" title="提示" content="自定义文本" /> 
-<Boxx type="warning" title="警告" content="自定义文本" /> 
-<Boxx type="danger" title="危险" content="自定义文本" /> 
-<Boxx type="type" title="只有标题" /> 
-<Boxx type="warning" content="只有文本" /> 
-
-<h3>原配方法</h3>
 
 :::tip
 （待续）
@@ -104,11 +92,11 @@ plugins: [
 （待续）
 :::
 
-:::danger
+:::danger 危险
 （待续）
 :::
 
-## 5. 允许一键复制代码
+## 2022-10-30 允许一键复制代码
 
 ```js
 plugins: [
@@ -122,7 +110,7 @@ plugins: [
 ]
 ```
 
-## 6. 鼠标动效
+## 2022-10-30 鼠标动效
 
 <h3>安装</h3>
 
@@ -152,7 +140,7 @@ module.exports = {
 }
 ```
 
-## 7. 隐藏首页的标题和描述
+## 2022-10-30 隐藏首页的标题和描述
 
 - .vuepress/styles/palette.styl
 
@@ -161,7 +149,7 @@ module.exports = {
   display none !important
 ```
 
-## 8. 首页左上角的文字
+## 2022-10-31 首页左上角的文字
 
 ```stylus
 .navbar .site-name
@@ -182,7 +170,7 @@ module.exports = {
   }
 ```
 
-## 9. heroText的显示效果
+## 2022-10-31 heroText的显示效果
 
 ```stylus
 .home-blog .hero h1
@@ -218,3 +206,10 @@ module.exports = {
   text-shadow 1px 1px 0 #ff3f1a, -1px -1px 0 #00a7e0
   //text-shadow 0 2px 2px #47456d
 ```
+
+## 2022-11-01 文件夹名和文件名都不能出现大写和中文
+:::danger
+否则就识别不到，dev的时候不会报错，deploy的时候就报错！
+:::
+
+## 2022-11-05 添加了调整呼吸和空调房的页面

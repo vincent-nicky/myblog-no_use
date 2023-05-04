@@ -4,9 +4,9 @@
   "author": "reco_luan",
   "license": "MIT",
   "scripts": {
-    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs --host \"localhost\"",
-    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs",
-    "deploy": "SET NODE_OPTIONS=--openssl-legacy-provider && bash deploy-gh.sh"
+    "dev": "vuepress dev docs --host \"localhost\"",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy-gh.sh"
   },
   "devDependencies": {
     "vuepress": "1.9.7",

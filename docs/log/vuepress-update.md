@@ -1,9 +1,10 @@
 ---
 title: vurpress优化日志
-date: 2022-10-29
 sidebar: auto
 tags:
 - vuepress优化
+
+[//]: # (date: 2022-10-29)
 ---
 
 ## 2022-10-29 解决部署后无法读取到样式的问题

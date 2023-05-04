@@ -103,7 +103,7 @@ module.exports = {
                 {
                     title: '重学JavaSE',
                     collapsable: false,
-                    children: ['java-itheima/javase/day07.md']
+                    children: ['java-itheima/javase/day07.md', 'java-itheima/javase/day08.md', 'java-itheima/javase/day09.md', 'java-itheima/javase/day10.md', 'java-itheima/javase/day11.md']
                 },
 /*                {
                     title: '软件测试',

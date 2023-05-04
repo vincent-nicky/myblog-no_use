@@ -1,6 +1,5 @@
 ---
 title: 学习笔记
-date: 2022-10-29
 sidebar: auto
 ---
 :::danger 
